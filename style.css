@@ -20,14 +20,10 @@ ul li a {
     color: #079
 
 }
-
 ul li a:hover{
     text-decoration: underline;
        
 }
-
-
-
 button {
     background-color: #079;
     color: white;
@@ -37,7 +33,6 @@ button {
     cursor: pointer;
     margin-top: 20px;
 }
-
 .container {
     max-width: 800px;
     margin: 0 auto;
