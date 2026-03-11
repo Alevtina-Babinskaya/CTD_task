@@ -1,0 +1,45 @@
+h1 {
+    color:#666;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    margin: 20px 20px;
+
+}
+ul {
+    list-style: none;
+    line-height: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
+    gap: 20px;  
+}
+ul li a {
+    text-decoration: none;
+    color: #079
+
+}
+
+ul li a:hover{
+    text-decoration: underline;
+       
+}
+
+
+
+button {
+    background-color: #079;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
